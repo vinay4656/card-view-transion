@@ -1,0 +1,47 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .box {
+    width: 200px;
+    height: 200px;
+    padding: auto;
+    transition-duration: 2s;
+    transition-property: width;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .container:hover .box {
+    width: 600px;
+  }
+  
+  .one {
+    background: linear-gradient(90deg, rgb(254, 202, 202), rgb(243, 77, 77));
+    transition-timing-function: linear;
+  }
+  
+  .two {
+    background:linear-gradient(90deg, rgb(253, 230, 138), rgb(252, 211, 77), rgb(251, 191, 36));
+    transition-timing-function: ease-in;
+  }
+  
+  .three {
+    background: linear-gradient(90deg, rgb(251, 113, 133), rgb(253, 186, 116));
+    transition-timing-function: ease-out;
+  }
+  
+  .four {
+    background:linear-gradient(90deg, rgb(96, 165, 250), rgb(52, 211, 153));
+    transition-timing-function: ease-in-out;
+  }
+  
+  /*
+    transition-delay: 0;
+    transition-duration: 1s;
+    transition-property: background;
+    transition-timing-function: ease;
+  */

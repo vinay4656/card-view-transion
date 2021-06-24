@@ -1,0 +1,63 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  padding: auto;
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+  -webkit-transition-property: width;
+  transition-property: width;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container:hover .box {
+  width: 600px;
+}
+
+.one {
+  background: -webkit-gradient(linear, left top, right top, from(#fecaca), to(#f34d4d));
+  background: linear-gradient(90deg, #fecaca, #f34d4d);
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+
+.two {
+  background: -webkit-gradient(linear, left top, right top, from(#fde68a), color-stop(#fcd34d), to(#fbbf24));
+  background: linear-gradient(90deg, #fde68a, #fcd34d, #fbbf24);
+  -webkit-transition-timing-function: ease-in;
+          transition-timing-function: ease-in;
+}
+
+.three {
+  background: -webkit-gradient(linear, left top, right top, from(#fb7185), to(#fdba74));
+  background: linear-gradient(90deg, #fb7185, #fdba74);
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+}
+
+.four {
+  background: -webkit-gradient(linear, left top, right top, from(#60a5fa), to(#34d399));
+  background: linear-gradient(90deg, #60a5fa, #34d399);
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+}
+
+/*
+    transition-delay: 0;
+    transition-duration: 1s;
+    transition-property: background;
+    transition-timing-function: ease;
+  */
+/*# sourceMappingURL=cardtransion.css.map */
